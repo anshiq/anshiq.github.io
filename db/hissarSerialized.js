@@ -1,4 +1,4 @@
-const quiz = [
+const hissarData = [
   ...[
     {
       question: "हिसार किसने बसाया?",
@@ -1701,3 +1701,5 @@ document.addEventListener('DOMContentLoaded', () => {
         showResults();
     });
 });
+
+export {hissarData}
