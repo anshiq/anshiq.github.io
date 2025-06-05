@@ -5,3 +5,4 @@
 - [Tips](./tips.md)
 - [Book](./tsbook/Book.md)
   - [Using unkown](./tsbook/unkown.md)
+  - [Empty Object Literal](./tsbook/emptyobjectliteral.md)

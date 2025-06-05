@@ -20,4 +20,18 @@ To make an object fully sealed or frozen, including its nested levels, you need 
 
 Also, note that both `seal` and `freeze` work only on **objects** — if you try to seal or freeze a **primitive value** like a string or number, it has **no effect**.
 
-##
+## Is value a valid Object?
+
+| Value             | `{}` | `object type` | `Object` |
+| ----------------- | :--: | :-----------: | :------: |
+| `{}`              | Yes  |      Yes      |   Yes    |
+| `['a']`           | Yes  |      Yes      |   Yes    |
+| `function () {}`  | Yes  |      Yes      |   Yes    |
+| `new String('a')` | Yes  |      Yes      |   Yes    |
+| `'a'`             | Yes  |      No       |   Yes    |
+| `1`               | Yes  |      No       |   Yes    |
+| `Symbol('a')`     | Yes  |      No       |   Yes    |
+| `null`            |  No  |      No       |    No    |
+| `undefined`       |  No  |      No       |    No    |
+
+Because some of them are premitive data types.
